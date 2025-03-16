@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserData">
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:id="@+id/lol_f"
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/user_data_profile_image"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                app:civ_border_width="5dp"
+                app:civ_border_color="#fff"
+                android:src="@drawable/profile"
+
+                />
+
+
+            <TextView
+                android:id="@+id/user_data_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:maxLength="30"
+                android:text="My Name"
+                android:textSize="25dp"
+                android:layout_marginLeft="100dp"
+                android:textColor="#000"
+                android:padding="7dp"
+                android:textAlignment="center"
+                android:fontFamily="@font/neuehelveticabq_bold"
+                android:layout_marginTop="35dp"
+                />
+
+            <TextView
+                android:id="@+id/user_data_profile_status"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/user_data_user_name"
+                android:textColor="#000"
+                android:inputType="textMultiLine"
+                android:fontFamily="@font/bentonsans_regular"
+                android:text="What kind of business you deal with?"
+                android:textSize="17dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:padding="6dp"
+                />
+
+        </RelativeLayout>
+        <LinearLayout
+            android:background="#fff"
+            android:id="@+id/lol1_f"
+            android:layout_below="@+id/lol_f"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <TextView
+                android:id="@+id/num_of_friends_2_f"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_gravity="center"
+                android:text="1"
+                android:textColor="#000"
+                android:maxLength="6"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/friends_btn_f"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Followers"
+                android:textSize="14dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"/>
+
+
+            <TextView
+                android:id="@+id/num_of_posts_2_f"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:maxLength="6"
+                android:layout_marginLeft="10dp"/>
+
+
+            <TextView
+                android:id="@+id/posts_btn_f"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Posts"
+                android:gravity="center"
+                android:textSize="14dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/lol2"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#fff"
+            android:layout_below="@id/lol1_f">
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_below="@+id/lol2"
+            android:id="@+id/li_1"
+            android:background="#ebecf0"
+            android:layout_marginTop="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Followers"
+                android:fontFamily="@font/neuehelveticabq_bold"
+                android:layout_centerVertical="true"
+                android:textColor="#808080"
+                android:textSize="17dp"
+                android:layout_marginLeft="20dp"/>
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="365dp"
+                android:src="@drawable/ic_navigate_next_black_24dp"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rel_lol_f"
+            android:background="#fff"
+            android:layout_below="@id/li_1"
+            android:layout_width="match_parent"
+            android:layout_height="20dp">
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/zero_posts_f"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0 Posts"
+            android:fontFamily="@font/neuehelveticabq_bold"
+            android:textSize="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="400dp"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:background="#f5f5f5"
+            android:layout_below="@+id/rel_lol_f"
+            android:id="@+id/my_own_ads1_f"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"></android.support.v7.widget.RecyclerView>
+
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

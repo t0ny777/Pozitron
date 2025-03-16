@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CombinerBoxDetails">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rec_electrical_motor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="0dp"
+            android:layout_height="50dp"
+            android:background="#ebecf0"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price"
+                android:fontFamily="@font/neuehelveticabq_bold"
+                android:textSize="14dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="12dp"
+                />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/electrical_motor_product_details_price"
+            android:layout_width="315dp"
+            android:layout_height="wrap_content"
+            android:text="Product Price"
+            android:fontFamily="@font/bentonsans_regular"
+            android:textColor="#000"
+            android:textSize="18.5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="50dp"
+            android:background="#ebecf0"
+            android:orientation="horizontal">
+
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Voltage and Special Features"
+                android:fontFamily="@font/neuehelveticabq_bold"
+                android:textSize="14dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="12dp"
+                />
+
+        </LinearLayout>
+
+
+
+        <TextView
+
+            android:id="@+id/electrical_motor_product_details_type"
+            android:layout_width="315dp"
+            android:layout_height="wrap_content"
+            android:text="Product Voltage"
+            android:textColor="#000"
+            android:textSize="18.5dp"
+            android:fontFamily="@font/bentonsans_regular"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"/>
+
+        <View
+            android:layout_width="315dp"
+            android:layout_height="0.1dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/recycler_view_divider"
+            />
+
+        <TextView
+
+            android:id="@+id/electrical_motor_product_details_power"
+            android:layout_width="315dp"
+            android:layout_height="wrap_content"
+            android:text="Product Special Features"
+            android:textColor="#000"
+            android:textSize="18.5dp"
+            android:fontFamily="@font/bentonsans_regular"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_height="50dp"
+            android:background="#ebecf0"
+            android:orientation="horizontal">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:fontFamily="@font/neuehelveticabq_bold"
+                android:layout_gravity="center"
+                android:textSize="14dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="12dp"
+                />
+
+        </LinearLayout>
+
+
+
+        <TextView
+
+            android:id="@+id/electrical_motor_product_details_description"
+            android:layout_width="315dp"
+            android:layout_height="wrap_content"
+            android:text="Product Description"
+            android:textColor="#000"
+            android:textSize="18.5dp"
+            android:fontFamily="@font/bentonsans_regular"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="50dp"
+            android:background="#ebecf0">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address and Phone Number"
+                android:fontFamily="@font/neuehelveticabq_bold"
+                android:layout_gravity="center"
+                android:textSize="14dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="12dp"
+                />
+
+        </LinearLayout>
+
+
+        <TextView
+
+            android:id="@+id/electrical_motor_product_details_address"
+            android:layout_width="315dp"
+            android:layout_height="wrap_content"
+            android:text="Product Address"
+            android:textColor="#000"
+            android:textSize="18.5dp"
+            android:fontFamily="@font/bentonsans_regular"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"/>
+
+
+        <View
+            android:layout_width="315dp"
+            android:layout_height="0.1dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/recycler_view_divider"
+            />
+
+
+        <TextView
+
+            android:autoLink="phone"
+            android:id="@+id/electrical_motor_call_me_baby"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone Number"
+            android:fontFamily="@font/bentonsans_regular"
+            android:textSize="19dp"
+            android:textColor="#000"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="215dp"
+            android:background="#ebecf0">
+
+
+
+            <RelativeLayout
+                android:id="@+id/electrical_motor_product_message"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#fff"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+
+
+
+                <TextView
+                    android:id="@+id/edit_txt_electrical_motor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/neuehelveticabq_bold"
+                    android:text="Edit Product"
+                    android:textColor="#000"
+                    android:textSize="18.5dp" />
+
+                <ImageView
+
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="310dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_navigate_next_black_24dp" />
+
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="315dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="0.1dp"
+                android:background="@drawable/recycler_view_divider"/>
+
+            <RelativeLayout
+                android:id="@+id/electrical_motor_product_details_cart"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#fff">
+
+                <TextView
+                    android:id="@+id/delete_txt_electrical_motor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18.5dp"
+                    android:text="Delete Product"
+                    android:layout_marginLeft="20dp"
+                    android:fontFamily="@font/neuehelveticabq_bold"
+                    android:layout_gravity="center"
+                    android:layout_centerVertical="true"
+                    android:textColor="#000"/>
+
+                <ImageView
+
+                    android:layout_marginLeft="310dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_navigate_next_black_24dp"/>
+
+            </RelativeLayout>
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Seller Info"
+                android:fontFamily="@font/neuehelveticabq_bold"
+                android:textSize="14dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="40dp"
+
+                />
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/electrical_motor_watch_seller_image"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:src="@drawable/profile"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            app:civ_border_color="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/electrical_motor_seller_nick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textSize="21dp"
+            android:maxLength="30"
+            android:fontFamily="@font/neuehelveticabq_bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="7dp"
+            android:textColor="#000"
+            />
+
+        <RelativeLayout
+            android:layout_marginTop="-5dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"></RelativeLayout>
+
+
+        <RelativeLayout
+            android:background="#ebecf0"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"></RelativeLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

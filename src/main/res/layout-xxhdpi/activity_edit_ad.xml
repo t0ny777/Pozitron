@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit Product"
+            android:fontFamily="@font/neuehelveticabq_bold"
+            android:textColor="#000"
+            android:layout_marginLeft="20dp"
+            android:textSize="25dp"
+            android:layout_marginTop="20dp"/>
+
+        <ImageView
+            android:id="@+id/battery_apply_changes"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_navigate_next_black_24dp"
+            android:layout_marginLeft="340dp"
+            android:layout_marginTop="-40dp"/>
+
+        <View
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@drawable/recycler_view_divider"
+            />
+
+        <FrameLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="-1dp">
+
+            <ImageView
+                android:scaleType="centerCrop"
+                android:id="@+id/battery_edit_ad_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center" />
+
+        </FrameLayout>
+
+
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/recycler_view_divider"/>
+
+
+        <EditText
+            android:id="@+id/battery_edit_ad_name"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:inputType="textMultiLine"
+            android:background="@null"
+            android:fontFamily="@font/bentonsans_regular"
+            android:textSize="18.5dp"
+            android:layout_gravity="center"
+            android:hint="Product Name"
+            android:textColor="#000"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/recycler_view_divider"/>
+
+
+        <EditText
+            android:id="@+id/battery_edit_ad_type"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:inputType="textMultiLine"
+            android:fontFamily="@font/bentonsans_regular"
+            android:background="@null"
+            android:textSize="18.5dp"
+            android:layout_gravity="center"
+            android:hint="Capacity"
+            android:textColor="#000"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/recycler_view_divider"/>
+
+        <EditText
+            android:id="@+id/battery_edit_ad_power"
+            android:layout_width="360dp"
+            android:fontFamily="@font/bentonsans_regular"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:inputType="textMultiLine"
+            android:background="@null"
+            android:textSize="18.5dp"
+            android:layout_gravity="center"
+            android:hint="Compatible with"
+            android:textColor="#000"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/recycler_view_divider"/>
+
+        <EditText
+            android:id="@+id/battery_edit_ad_description"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bentonsans_regular"
+            android:layout_marginTop="15dp"
+            android:inputType="textMultiLine"
+            android:background="@null"
+            android:textSize="18.5dp"
+            android:layout_gravity="center"
+            android:hint="Description"
+            android:textColor="#000"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/recycler_view_divider"/>
+
+        <EditText
+            android:id="@+id/battery_edit_ad_address"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/bentonsans_regular"
+            android:inputType="textMultiLine"
+            android:background="@null"
+            android:textSize="18.5dp"
+            android:layout_gravity="center"
+            android:hint="Address"
+            android:textColor="#000"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/recycler_view_divider"/>
+
+        <EditText
+            android:id="@+id/battery_edit_ad_price"
+            android:fontFamily="@font/bentonsans_regular"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:inputType="number"
+            android:background="@null"
+            android:textSize="18.5dp"
+            android:layout_gravity="center"
+            android:hint="Price"
+            android:textColor="#000"/>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/recycler_view_divider"/>
+
+        <EditText
+            android:id="@+id/battery_edit_ad_phone_number"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:inputType="number"
+            android:fontFamily="@font/bentonsans_regular"
+            android:background="@null"
+            android:textSize="18.5dp"
+            android:digits="1234567890"
+            android:layout_gravity="center"
+            android:hint="Phone Number"
+            android:textColor="#000"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/recycler_view_divider"/>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

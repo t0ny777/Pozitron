@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ImageViewerInDetails"
+    android:background="#000">
+
+    <ImageView
+        android:id="@+id/image_details"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="170dp"
+        android:scaleType="centerCrop"/>
+
+    <RelativeLayout
+        android:id="@+id/image_view_rel"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/image_view_image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:id="@+id/image_view_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="70dp"
+            android:textColor="#fff"
+            android:text="Name"
+            android:maxLength="30"
+            android:fontFamily="@font/helvetica_bold"
+            android:textSize="17dp"/>
+
+        <TextView
+            android:id="@+id/image_view_date"
+            android:layout_width="match_parent"
+            android:layout_marginTop="-2.5dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image_view_name"
+            android:layout_marginLeft="70dp"
+            android:fontFamily="@font/bentonsans_book"
+            android:textColor="#fff"
+            android:text="Date and Time"
+            />
+
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:fontFamily="@font/bentonsans_regular"
+        android:id="@+id/image_view_price"
+        android:layout_width="370dp"
+        android:layout_below="@id/image_details"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#fff"
+        android:text="Product Name"
+        android:maxLength="60"
+        android:textSize="20dp"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,4 @@
+#Fri Aug 30 18:15:01 ALMT 2019
+base.0=C\:\\Users\\lenovo\\AndroidStudioProjects\\ECOMMERCE\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\3
+path.0=classes.dex
+renamed.0=classes.dex

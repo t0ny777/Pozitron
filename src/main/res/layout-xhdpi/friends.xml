@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#fff">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_centerVertical="true"
+            android:id="@+id/friends_image"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            />
+
+
+        <TextView
+            android:id="@+id/friends_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="85dp"
+            android:padding="6dp"
+            android:text="Name"
+            android:maxLength="23"
+            android:textColor="#000"
+            android:fontFamily="@font/neuehelveticabq_bold"
+            android:layout_marginTop="6.5dp"
+            android:textSize="20dp"
+            />
+
+        <android.support.v7.widget.CardView
+            app:cardElevation="0dp"
+            android:id="@+id/friend_profile"
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="90dp"
+            app:cardBackgroundColor="#F96167"
+            app:cardCornerRadius="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Profile"
+                android:textStyle="bold"
+                android:textSize="13dp"
+                android:textColor="#fff"
+                android:layout_gravity="center"/>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/friend_accept"
+            app:cardElevation="0dp"
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="90dp"
+            app:cardBackgroundColor="#F96167"
+            app:cardCornerRadius="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Accept"
+                android:textSize="13dp"
+                android:textColor="#fff"
+                android:layout_gravity="center"/>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            app:cardElevation="0dp"
+            android:id="@+id/friend_delete_once"
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="90dp"
+            app:cardBackgroundColor="#F96167"
+            app:cardCornerRadius="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delete"
+                android:textStyle="bold"
+                android:textSize="13dp"
+                android:textColor="#fff"
+                android:layout_gravity="center"/>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            app:cardElevation="0dp"
+            android:id="@+id/friend_send"
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="90dp"
+            app:cardBackgroundColor="#F96167"
+            app:cardCornerRadius="15dp">
+
+            <TextView
+                android:id="@+id/send_req_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Send Request"
+                android:textSize="13dp"
+                android:textColor="#fff"
+                android:layout_gravity="center"/>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            app:cardElevation="0dp"
+            android:id="@+id/friend_delete"
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="220dp"
+            app:cardCornerRadius="15dp"
+            app:cardBackgroundColor="#F96167">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Delete"
+                android:textSize="13dp"
+                android:textColor="#fff"
+                android:layout_gravity="center"/>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            app:cardElevation="0dp"
+            android:id="@+id/friend_profile1"
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="220dp"
+            app:cardCornerRadius="15dp"
+            app:cardBackgroundColor="#F96167">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="View Profile"
+                android:textSize="13dp"
+                android:textColor="#fff"
+                android:layout_gravity="center"/>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            app:cardElevation="0dp"
+            android:id="@+id/friend_decline"
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="220dp"
+            app:cardCornerRadius="15dp"
+            app:cardBackgroundColor="#F96167">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Decline"
+                android:textSize="13dp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            app:cardElevation="0dp"
+            android:id="@+id/friend_view_profile_huge_version"
+            android:layout_width="240dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="90dp"
+            app:cardBackgroundColor="#F96167"
+            app:cardCornerRadius="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Profile"
+                android:textStyle="bold"
+                android:textSize="13dp"
+                android:textColor="#fff"
+                android:layout_gravity="center"/>
+
+        </android.support.v7.widget.CardView>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

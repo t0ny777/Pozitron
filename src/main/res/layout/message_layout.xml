@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+<RelativeLayout
+    android:layout_width="300dp"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/message_profile_image"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:src="@drawable/profile"/>
+
+    <TextView
+        android:id="@+id/receiver_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="12dp"
+        android:layout_toEndOf="@+id/message_profile_image"
+        android:background="@drawable/receiver_message_text"
+        android:text="Receiver Message"
+        android:fontFamily="@font/bentonsans_regular"
+        android:textColor="#fff"
+        android:padding="10dp"
+        android:textSize="14dp"
+        />
+
+    <ImageView
+        android:id="@+id/image_receiver"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="60dp"
+        android:scaleType="centerCrop" />
+</RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_alignParentEnd="true"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:id="@+id/sender_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/sender_message_text_background"
+            android:text="Receiver Message"
+            android:fontFamily="@font/bentonsans_regular"
+            android:layout_alignParentTop="true"
+            android:textColor="#fff"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:textSize="14dp"
+            />
+
+        <ImageView
+            android:id="@+id/image_sender"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:scaleType="centerCrop" />
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CategoriesForShop">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Filters"
+            android:textColor="#000"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="@font/neuehelveticabq_bold"
+            android:textSize="25dp"
+            android:layout_marginTop="20dp"/>
+
+
+
+        <RelativeLayout
+            android:id="@+id/line_1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Solar Panel"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/bentonsans_regular"
+                android:layout_marginLeft="20dp"
+                android:textSize="16.5dp"/>
+
+            <TextView
+                android:id="@+id/counter1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/bentonsans_regular"
+                android:text="0"
+                android:layout_marginLeft="330dp"/>
+
+            <ImageView
+                android:layout_centerVertical="true"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_navigate_next_black_24dp"
+                android:layout_marginLeft="360dp"/>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="360dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="0.5dp"
+            android:background="@drawable/gray_divider"/>
+
+        <RelativeLayout
+            android:id="@+id/line_2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Combiner Box"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/bentonsans_regular"
+                android:layout_marginLeft="20dp"
+                android:textSize="16.5dp"/>
+
+            <TextView
+                android:id="@+id/counter2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/bentonsans_regular"
+                android:text="0"
+                android:layout_marginLeft="330dp"/>
+
+            <ImageView
+                android:layout_centerVertical="true"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_navigate_next_black_24dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="360dp"/>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="360dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="0.5dp"
+            android:background="@drawable/gray_divider"/>
+
+        <RelativeLayout
+            android:id="@+id/line_3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Solar Charge Controller"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/bentonsans_regular"
+                android:layout_marginLeft="20dp"
+                android:textSize="16.5dp"/>
+
+            <TextView
+                android:id="@+id/counter3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/bentonsans_regular"
+                android:text="0"
+                android:layout_marginLeft="330dp"/>
+
+            <ImageView
+                android:layout_centerVertical="true"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_navigate_next_black_24dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="360dp"/>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="360dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="0.5dp"
+            android:background="@drawable/gray_divider"/>
+
+        <RelativeLayout
+            android:id="@+id/line_4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Battery"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/bentonsans_regular"
+                android:layout_marginLeft="20dp"
+                android:textSize="16.5dp"/>
+
+            <TextView
+                android:id="@+id/counter4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/bentonsans_regular"
+                android:text="0"
+                android:layout_marginLeft="330dp"/>
+
+            <ImageView
+                android:layout_centerVertical="true"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_navigate_next_black_24dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="360dp"/>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="360dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="0.5dp"
+            android:background="@drawable/gray_divider"/>
+
+        <RelativeLayout
+            android:id="@+id/line_5"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Inverter"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/bentonsans_regular"
+                android:layout_marginLeft="20dp"
+                android:textSize="16.5dp"/>
+
+            <TextView
+                android:id="@+id/counter5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/bentonsans_regular"
+                android:text="0"
+                android:layout_marginLeft="330dp"/>
+
+            <ImageView
+                android:layout_centerVertical="true"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_navigate_next_black_24dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="360dp"/>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="360dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="0.5dp"
+            android:background="@drawable/gray_divider"/>
+
+        <RelativeLayout
+            android:id="@+id/line_6"
+            android:layout_marginTop="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DC and AC Disconnects"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/bentonsans_regular"
+                android:layout_marginLeft="20dp"
+                android:textSize="16.5dp"/>
+
+            <TextView
+                android:id="@+id/counter6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/bentonsans_regular"
+                android:text="0"
+                android:layout_marginLeft="330dp"/>
+
+            <ImageView
+                android:layout_centerVertical="true"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_navigate_next_black_24dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="360dp"/>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="360dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="0.5dp"
+            android:background="@drawable/gray_divider"/>
+
+        <RelativeLayout
+            android:id="@+id/line_7"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wires"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/bentonsans_regular"
+                android:layout_marginLeft="20dp"
+                android:textSize="16.5dp"/>
+
+            <TextView
+                android:id="@+id/counter7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/bentonsans_regular"
+                android:text="0"
+                android:layout_marginLeft="330dp"/>
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_navigate_next_black_24dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="360dp"/>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="360dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="0.5dp"
+            android:background="@drawable/gray_divider"/>
+
+        <RelativeLayout
+            android:id="@+id/line_8"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wind Turbine Generator"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/bentonsans_regular"
+                android:layout_marginLeft="20dp"
+                android:textSize="16.5dp"/>
+
+            <TextView
+                android:id="@+id/counter8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/bentonsans_regular"
+                android:text="0"
+                android:layout_marginLeft="330dp"/>
+
+            <ImageView
+                android:layout_centerVertical="true"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_navigate_next_black_24dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="360dp"/>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="360dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="0.5dp"
+            android:background="@drawable/gray_divider"/>
+
+        <RelativeLayout
+            android:id="@+id/line_9"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Electrical Motor"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/bentonsans_regular"
+                android:layout_marginLeft="20dp"
+                android:textSize="16.5dp"/>
+
+            <TextView
+                android:id="@+id/counter9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/bentonsans_regular"
+                android:text="0"
+                android:layout_marginLeft="330dp"/>
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_navigate_next_black_24dp"
+                android:layout_gravity="center"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="360dp"/>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="360dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="0.5dp"
+            android:background="@drawable/gray_divider"/>
+
+        <RelativeLayout
+            android:id="@+id/line_10"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wind Controller/Charger"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/bentonsans_regular"
+                android:layout_marginLeft="20dp"
+                android:textSize="16.5dp"/>
+
+
+            <TextView
+                android:id="@+id/counter10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/bentonsans_regular"
+                android:text="0"
+                android:layout_marginLeft="330dp"/>
+
+            <ImageView
+                android:layout_centerVertical="true"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_navigate_next_black_24dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="360dp"/>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="360dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="0.5dp"
+            android:background="@drawable/gray_divider"/>
+
+        <RelativeLayout
+            android:id="@+id/line_11"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Power Converter"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/bentonsans_regular"
+                android:layout_marginLeft="20dp"
+                android:textSize="16.5dp"/>
+
+            <TextView
+                android:id="@+id/counter11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/bentonsans_regular"
+                android:text="0"
+                android:layout_marginLeft="330dp"/>
+
+            <ImageView
+                android:layout_centerVertical="true"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_navigate_next_black_24dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="360dp"/>
+
+        </RelativeLayout>
+
+
+        <View
+            android:layout_width="360dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="0.5dp"
+            android:background="@drawable/gray_divider"/>
+
+        <RelativeLayout
+            android:id="@+id/line_12"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gear Box"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/bentonsans_regular"
+                android:layout_marginLeft="20dp"
+                android:textSize="16.5dp"/>
+
+            <TextView
+                android:id="@+id/counter12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/bentonsans_regular"
+                android:text="0"
+                android:layout_marginLeft="330dp"/>
+
+            <ImageView
+                android:layout_centerVertical="true"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_navigate_next_black_24dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="360dp"/>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="360dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="0.5dp"
+            android:background="@drawable/gray_divider"/>
+
+        <RelativeLayout
+            android:id="@+id/line_13"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Solar Installation"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/bentonsans_regular"
+                android:layout_marginLeft="20dp"
+                android:textSize="16.5dp"/>
+
+            <TextView
+                android:id="@+id/counter13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/bentonsans_regular"
+                android:text="0"
+                android:layout_marginLeft="330dp"/>
+
+            <ImageView
+                android:layout_centerVertical="true"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_navigate_next_black_24dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="360dp"/>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="360dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="0.5dp"
+            android:background="@drawable/gray_divider"/>
+
+        <RelativeLayout
+            android:id="@+id/line_14"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wind Installation"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/bentonsans_regular"
+                android:layout_marginLeft="20dp"
+                android:textSize="16.5dp"/>
+
+            <TextView
+                android:id="@+id/counter14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/bentonsans_regular"
+                android:text="0"
+                android:layout_marginLeft="330dp"/>
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_centerVertical="true"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_navigate_next_black_24dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="360dp"/>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="360dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="0.5dp"
+            android:background="@drawable/gray_divider"/>
+
+        <RelativeLayout
+            android:id="@+id/line_15"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Others"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/bentonsans_regular"
+                android:layout_marginLeft="20dp"
+                android:textSize="16.5dp"/>
+
+            <TextView
+                android:id="@+id/counter15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/bentonsans_regular"
+                android:text="0"
+                android:layout_marginLeft="330dp"/>
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_navigate_next_black_24dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="360dp"/>
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f5f5">
+
+    <RelativeLayout
+        android:id="@+id/rel"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#fff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+            android:fontFamily="@font/neuehelveticabq_bold"
+            android:textColor="#000"
+            android:layout_marginLeft="20dp"
+            android:textSize="25dp"
+            android:layout_centerVertical="true"/>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_below="@+id/rel"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Version I"
+            android:textSize="18.5dp"
+            android:fontFamily="@font/bentonsans_regular"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"/></LinearLayout>
+
+
+
+
+</RelativeLayout>

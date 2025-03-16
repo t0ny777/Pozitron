@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PopUpWindow"
+
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Profile"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:layout_marginTop="12.5dp"/>
+
+    <TextView
+        android:id="@+id/save_me_pop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_marginLeft="345dp"
+        android:textSize="20dp"
+        android:layout_marginTop="12.5dp"/>
+
+    <View
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@drawable/recycler_view_divider"
+        />
+
+
+    <RelativeLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="#f96167"
+        >
+
+    </RelativeLayout>
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/set_user_image_pop"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="110dp"
+        android:src="@drawable/profile"
+        />
+
+
+    <TextView
+        android:id="@+id/css"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Name"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_marginLeft="20dp"
+        android:textSize="17dp"
+        android:layout_marginTop="215dp"/>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/mandd"
+        android:layout_below="@+id/css"
+        app:cardElevation="0dp"
+        android:layout_width="370dp"
+        app:cardBackgroundColor="#d3d3d3"
+        app:cardCornerRadius="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="50dp">
+
+        <EditText
+            android:id="@+id/edit_user_name_pop"
+            android:layout_gravity="center"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:fontFamily="@font/bentonsans_regular"
+            android:maxLength="30"
+            android:background="@null"/>
+
+    </android.support.v7.widget.CardView>
+
+
+
+    <TextView
+        android:id="@+id/m1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Status"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textColor="#000"
+        android:layout_marginLeft="20dp"
+        android:textSize="17dp"
+        android:layout_below="@id/mandd"/>
+
+    <android.support.v7.widget.CardView
+        android:layout_below="@+id/m1"
+        app:cardElevation="0dp"
+        android:layout_width="370dp"
+        app:cardBackgroundColor="#d3d3d3"
+        app:cardCornerRadius="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="115dp">
+
+        <EditText
+            android:inputType="textMultiLine"
+            android:id="@+id/edit_user_status_pop"
+            android:layout_width="330dp"
+            android:layout_marginTop="12.5dp"
+            android:fontFamily="@font/bentonsans_regular"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@null"
+            android:maxLength="155"/>
+
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

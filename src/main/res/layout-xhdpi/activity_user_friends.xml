@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserFriendsActivity"
+    android:background="#f5f5f5">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#fff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Followers"
+            android:fontFamily="@font/neuehelveticabq_bold"
+            android:textColor="#000"
+            android:layout_marginLeft="20dp"
+            android:textSize="21dp"
+            android:layout_centerVertical="true"/>
+
+        <ImageView
+            android:id="@+id/friends_req"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_navigate_next_black_24dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="12dp"
+            android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_marginTop="60dp"
+        android:id="@+id/user_friends_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+
+
+
+</RelativeLayout>

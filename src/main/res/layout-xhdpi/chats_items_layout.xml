@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="#fff"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/chat_image"
+            android:layout_centerVertical="true"
+            android:layout_width="45dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="45dp"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/chats_product_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product Name"
+            android:fontFamily="@font/neuehelveticabq_bold"
+            android:layout_marginLeft="85dp"
+            android:textColor="#000"
+            android:maxLength="25"
+            android:layout_marginTop="10dp"
+            android:textSize="17.5dp"/>
+
+        <ImageView
+            android:id="@+id/chat_next"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="310dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_navigate_next_black_24dp"/>
+
+
+
+
+        <TextView
+            android:id="@+id/chats_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="85dp"
+            android:textAlignment="center"
+            android:textSize="14dp"
+            android:textColor="#000" />
+
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>
+

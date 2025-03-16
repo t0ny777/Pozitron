@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="380dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dp"
+    android:layout_marginLeft="15dp"
+    app:cardElevation="0dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/go_to_profile"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_marginTop="17.5dp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/show_user_circleimage"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:layout_marginTop="17.5dp"
+            android:id="@+id/user_name_under_ad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User Name"
+            android:maxLength="30"
+            android:fontFamily="@font/neuehelveticabq_bold"
+            android:textSize="17dp"
+            android:textColor="#000"
+            android:layout_marginLeft="70dp"/>
+
+        <TextView
+            android:id="@+id/ad_date"
+            android:layout_below="@+id/user_name_under_ad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:fontFamily="@font/bentonsans_book"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="0dp"
+            android:textColor="#000"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="67.5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/product_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Product Name"
+            android:fontFamily="@font/bentonsans_regular"
+            android:maxLength="60"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#000"
+            android:textSize="20dp"/>
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:layout_below="@id/product_name"
+            android:id="@+id/product_image"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="10dp"/>
+
+        <RelativeLayout
+            android:layout_below="@id/product_image"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <com.like.LikeButton
+                android:id="@+id/like"
+                android:layout_marginLeft="17.5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                app:icon_size="6dp"
+                app:icon_type="heart"></com.like.LikeButton>
+
+            <TextView
+                android:id="@+id/display_num_of_likes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/bentonsans_bold"
+                android:text="0"
+                />
+
+            <ImageView
+                android:id="@+id/put_in_cart"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="290dp"
+                android:tint="#707070"
+                android:layout_centerVertical="true"
+                android:src="@drawable/shopping_cart5"/>
+
+            <TextView
+                android:id="@+id/txt_cart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cart"
+                android:fontFamily="@font/bentonsans_bold"
+                android:layout_marginLeft="325dp"
+                android:layout_centerVertical="true"/>
+
+
+
+        </RelativeLayout>
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+</android.support.v7.widget.CardView>

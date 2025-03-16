@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShopActivity2"
+    android:background="#f5f5f5">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#fff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Looking for New Items?"
+            android:fontFamily="@font/neuehelveticabq_bold"
+            android:textColor="#000"
+            android:layout_marginLeft="20dp"
+            android:textSize="21dp"
+            android:layout_centerVertical="true"/>
+
+
+    </RelativeLayout>
+
+
+
+    <include
+        android:id="@+id/recc"
+        layout="@layout/content_shop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"/>
+
+    <RelativeLayout
+        android:layout_below="@+id/recc"
+        android:background="#f5f5f5"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"></RelativeLayout>
+
+
+</RelativeLayout>
