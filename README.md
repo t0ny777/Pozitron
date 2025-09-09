@@ -42,7 +42,8 @@ A full-featured Android e-commerce application built for a niche market: buying 
 
 ## 📁 Repository Structure
 ```text
-src/
+app/
+├── src/
 ├── main/
 │   ├── java/com/example/e_commerce/
 │   │   ├── Interface/          # Interface classes
