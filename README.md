@@ -41,15 +41,26 @@ A full-featured Android e-commerce application built for a niche market: buying 
 - **Build Tool:** Gradle
 
 ## 📁 Repository Structure
-├── app/
-│ └── src/main/
-│ ├── java/.../ # Java source code (Activities, Models, Adapters)
-│ └── res/ # Layouts (XML), drawables, strings
-├── assets/ # Screenshots and proof of sale (not part of original code)
-├── README.md # This file
-└── ... # Original project configuration files
-
-text
+```text
+src/
+├── main/
+│   ├── java/com/example/e_commerce/
+│   │   ├── Interface/          # Interface classes
+│   │   ├── Model/              # Data model classes
+│   │   ├── Prevalent/          # Prevalent classes
+│   │   ├── ViewHolder/         # ViewHolder classes
+│   │   ├── AddNewProduct.java
+│   │   ├── BrakesDetails.java
+│   │   ├── CartActivity.java
+│   │   └── ...                 # Other Java files
+│   └── res/                    # Resources (layouts, drawables, values)
+├── androidTest/                # Android instrumentation tests
+└── test/                       # Unit tests
+build.gradle                    # Project build configuration
+app.iml                         # Project configuration file
+proguard-rules.pro              # ProGuard rules for code obfuscation
+README.md                       # Project documentation
+```
 
 ## 📖 Project History & Context
 
