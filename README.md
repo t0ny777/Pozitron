@@ -11,15 +11,6 @@ A full-featured Android e-commerce application built for a niche market: buying 
 
 > **Note:** This is an archival repository. The code is presented in its original 2019 state, showcasing a completed project lifecycle from concept to commercial sale.
 
-## 📸 Proof of Publication & Commercial Success
-
-| Google Play Store Listing | Application Interface | Commercial Transaction |
-|:---:|:---:|:---:|
-| [![Play Store](https://via.placeholder.com/200?text=Screenshot+1)](screenshots/play_store.jpg) | [![App Interface](https://via.placeholder.com/200?text=Screenshot+2)](screenshots/app_interface.jpg) | [![Transaction](https://via.placeholder.com/200?text=Screenshot+3)](screenshots/transaction_proof.jpg) |
-| Live listing on Google Play | App UI & functionality | Confirmation of sale |
-
-*Further proof, including communication with the buyer, is available upon request.*
-
 ## 🚀 Key Features
 
 - **👤 User System & Profiles:** Registration/login via Firebase Auth. Customizable profiles with avatars, bios, and friend connections.
@@ -39,6 +30,26 @@ A full-featured Android e-commerce application built for a niche market: buying 
 - **Libraries:** Picasso (for image loading)
 - **Monetization:** Google AdMob
 - **Build Tool:** Gradle
+
+## 📸 Screenshots
+
+Below are some preserved screenshots of the app interface and Google Play listing from **2019**.  
+⚠️ Please note: not all UI elements were saved.
+
+- [Google Play Listing 1](screenshots/google-play-listing1.jpg)  
+- [Google Play Listing 2](screenshots/google-play-listing.jpg)  
+- [Update Profile Screen](screenshots/interface-update-profile.jpg)  
+- [Profile Screen](screenshots/interface-profile.jpg)  
+- [Create Product Ad Screen](screenshots/interface-create-product-ad.jpg)  
+- [Friends List Screen](screenshots/interface-friends.jpg)  
+- [Product Ad Screen](screenshots/interface-product-ad.jpg)  
+- [Welcome Screen (Create Account)](screenshots/interface-welcome.jpg)  
+
+## 📑 Additional Notes
+
+- **Fact of sale**: The app was successfully sold in 2021.  
+  Confirmation is available via **commercial correspondence and payment receipt** –  
+  these materials are **available for demonstration during interviews**.
 
 ## 📁 Repository Structure
 ```text
@@ -78,7 +89,7 @@ This repository serves as a testament to my ability to complete and deliver comp
 
 This project was an invaluable learning experience that laid the foundation for my current development practices. Working on it taught me crucial lessons about software architecture, the importance of clean code, and project management.
 
-While the code here represents my skills from 2019, my current focus is on strengthening my backend capabilities with Spring Boot, modern design patterns, and building scalable systems, as demonstrated in my newer project, the [Investment Tracker](link-to-your-investment-tracker-repo).
+While the code here represents my skills from 2019, my current focus is on strengthening my backend capabilities with Spring Boot, modern design patterns, and building scalable systems, as demonstrated in my newer project, the Investment Portfolio Tracker Web Application (https://github.com/t0ny777/PortfolioTracker).
 
 ## 📝 License
 
@@ -86,10 +97,8 @@ This repository contains historical code shared for portfolio and educational pu
 
 ---
 
-> **💡 Interested in my current skills?** Check out my [Investment Tracker](link-to-your-investment-tracker-repo) project to see my updated work with modern backend technologies and development practices.
-
 **👨‍💻 Author**  
 Developed with a passion for solving real-world problems through code. Currently seeking opportunities to contribute to impactful projects in international IT and fintech companies.
 
-Connect with me: [LinkedIn](your-linkedin-url) | [Personal Portfolio](your-portfolio-url)
+Connect with me: [LinkedIn](your-linkedin-url) 
 
